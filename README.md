@@ -15,10 +15,11 @@ The agent, **Alex**, "sees" the game world via text descriptions, formulates sur
 ## ⚙️ How It Works (The Cognitive Loop)
 
 The system separates the **Simulation Layer** (Pygame) from the **Cognitive Layer** (LLM).
-
+```mermaid
 graph TD
     World[🌍 Pygame World] -- "1. Vision Data (Text)" --> Brain[🧠 NPC Brain Class]
     Brain -- "2. Prompt Engineering" --> LLM{DeepSeek LLM}
     LLM -- "3. JSON Reasoning" --> Brain
     Brain -- "4. Action Command" --> World
     World -- "5. Update Physics" --> Screen[🖥️ Display]
+```
