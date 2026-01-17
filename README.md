@@ -1,4 +1,5 @@
 #  Generative NPC: Survival Agent Simulation
+https://github.com/user-attachments/assets/31f005d5-dd3d-42f1-ad36-5bffc1a88c5e
 
 > **An autonomous "Thinking NPC" that survives in a procedurally generated grid world using DeepSeek R1 reasoning.**
 
